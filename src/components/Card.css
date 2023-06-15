@@ -1,0 +1,33 @@
+.card {
+    font-size: 12px;
+    padding: 4rem;
+}
+
+.card > p {
+    color: black;
+}
+
+.card--image {
+    width: 176px;
+    height: 235px;
+    border-radius: 9px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.bold {
+    font-weight: bold;
+}
