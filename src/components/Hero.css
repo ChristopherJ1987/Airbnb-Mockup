@@ -1,0 +1,24 @@
+section {
+    padding: 3rem 5rem 3rem 5rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.photoGrid {
+    min-height: 40rem;
+    min-width: 66rem;
+    align-self: center;
+}
+
+.heroHeader {
+    margin-bottom: 16px;
+}
+
+.heroText {
+    margin-top: 0;
+    color: black;
+    padding: 0;
+}
