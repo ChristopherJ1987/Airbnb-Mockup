@@ -1,10 +1,12 @@
 .cardContainer {
     display: flex;
+    overflow-x: scroll;
 }
 
 .card {
     font-size: 12px;
     padding: 4rem;
+    min-width: fit-content;
 }
 
 .card > p {
