@@ -30,12 +30,17 @@
     align-items: center;
 }
 
+.card--stats > * {
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
 .card--star {
     height: 14px;
 }
 
 .gray {
-    color: #918E9B;
+    color: #f1f0f4;
 }
 
 .bold {
