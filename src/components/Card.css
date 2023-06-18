@@ -1,16 +1,11 @@
 .cardContainer {
-    display: flex;
-    overflow-x: scroll;
-    background: #FC5C7D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 }
 
 .card {
     font-size: 12px;
-    padding: 4rem;
-    min-width: fit-content;
+    padding: 1rem;
+    min-width: 400px;
 }
 
 .card > p {
@@ -18,16 +13,25 @@
 }
 
 .card--image {
-    width: 176px;
-    height: 235px;
-    border-radius: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 345px;
+    width: 300px;
     max-width: 100%;
     max-height: 100%;
+    border-radius: 9px;
 }
 
 .card--stats {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 .card--stats > * {
@@ -45,4 +49,15 @@
 
 .bold {
     font-weight: bold;
+    color: #f1f0f4;
+}
+
+.card--title {
+    display: flex;
+    text-align: center;
+}
+
+.card--price {
+    display: flex;
+    align-items: flex-end;
 }

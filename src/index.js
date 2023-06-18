@@ -1,3 +1,5 @@
+// This sends the App component to be rendered on the DOM in index.html
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
