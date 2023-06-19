@@ -10,7 +10,7 @@ export default [
             reviewCount: 7,
         },
         location: "Denver, Colorado",
-        openSpots: 4,
+        openSpots: 0,
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ export default [
             reviewCount: 3,
         },
         location: "Dallas, Texas",
-        openSpots: 9,
+        openSpots: 0,
     },
     {
         id: 3,
@@ -75,7 +75,7 @@ export default [
             reviewCount: 55,
         },
         location: "Seattle, Washington",
-        openSpots: 7,
+        openSpots: 0,
     },
     {
         id: 7,
@@ -126,7 +126,7 @@ export default [
             rating: 3.5,
             reviewCount: 6,
         },
-        location: "Lewisville, Texas",
+        location: "Online",
         openSpots: 18,
     },
 ]
